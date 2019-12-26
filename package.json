@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-template",
+  "name": "expt-20191224",
   "version": "0.1.0",
-  "description": "",
+  "description": "learning nuxt + typescript + pug + stylus",
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
@@ -14,25 +14,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e7a894/nuxt-template.git"
+    "url": "git+https://github.com/e7a894/expt-20191224.git"
   },
   "author": "e7a894 <e7a894@outlook.jp>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/e7a894/nuxt-template/issues"
+    "url": "https://github.com/e7a894/expt-20191224/issues"
   },
-  "homepage": "https://github.com/e7a894/nuxt-template#readme",
+  "homepage": "https://github.com/e7a894/expt-20191224#readme",
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.3.3",
+    "contentful": "^7.11.3",
     "nuxt": "^2.11.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.5.2",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/eslint-config-typescript": "^1.0.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
   },
   "prettier": {
     "singleQuote": true

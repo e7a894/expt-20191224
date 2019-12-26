@@ -8,5 +8,6 @@
   "eslint.validate": ["javascript", "typescript", "vue", "vue-html"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "stylelint.enable": false
 }
